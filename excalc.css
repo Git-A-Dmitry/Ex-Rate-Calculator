@@ -143,7 +143,7 @@ tr:nth-child(even) {
     font-size: 30px;
     font-weight:bold;
     text-align: right;
-    color:brown;
+    color:darkslategray;
     width: 200px;
 }
 
@@ -181,6 +181,14 @@ select:focus, input:focus {
         height: 125vh;
     }
 
+    h2 {
+        margin-top: 2px;
+    }
+
+    img {
+        margin-left: 5px;
+    }
+
     .main-section, p {
         margin-top: 50px;
         display: flex;
@@ -200,12 +208,13 @@ select:focus, input:focus {
     .par {
         width: 100%;
         margin-bottom: 20px;
+        text-transform:none;
+        display: none;
     }
+    
+    .currency input {
+        /* background:lightgray; */
+        width: 150px;
 
-    /* .currency input {
-        color:crimson;
-        background:lightgray;
-        width: 200px;
-
-    } */
+    }
 }
