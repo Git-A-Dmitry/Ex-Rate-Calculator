@@ -189,6 +189,10 @@ select:focus, input:focus {
         margin-left: 5px;
     }
 
+    .container {
+        box-shadow: none;
+    }
+
     .main-section, p {
         margin-top: 50px;
         display: flex;
@@ -211,10 +215,17 @@ select:focus, input:focus {
         text-transform:none;
         display: none;
     }
-    
+
     .currency input {
         /* background:lightgray; */
         width: 150px;
 
     }
+
+    .tables {
+        margin-top: 25px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: none;
+}
 }
